@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页中转站</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> <!-- Linking Google Font -->
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            font-family: 'Indie Flower', cursive; /* Apply Indie Flower font */
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around; /* Changed to space-around for even spacing */
+            align-items: center;
+            padding: 0 5%;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+            border-radius: 10px;
+            margin-top: 30px; /* Added margin top */
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin-top: 10%; /* Move slightly up for closer proximity */
+        }
+        .bottom-row {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin-bottom: 0px; /* Added margin bottom for spacing */
+        }
+        .nav-link {
+            background-color: rgba(173, 216, 230, 0.7); /* Light blue with transparency */
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 120px;
+            width: 45%;
+            font-size: 24px; /* Larger text size */
+        }
+        .nav-link:hover {
+            background-color: rgba(155, 194, 209, 0.8); /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>包括melodyzzy自己的笔记与部分chatgpt聊天搜索有用内容</h1>
+    </div>
+    <div class="navigation">
+        <a href="http://music.melodyzzy.com" class="nav-link">音乐</a>
+        <a href="http://code.melodyzzy.com" class="nav-link">计算机</a>
+    </div>
+    <div class="bottom-row">
+        <a href="http://note.melodyzzy.com" class="nav-link">学习</a>
+        <a href="http://rest.melodyzzy.com" class="nav-link">休闲</a>
+    </div>
+</body>
+</html>
